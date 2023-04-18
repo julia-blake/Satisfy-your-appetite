@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+}
+
+.page-wrapper {
+  width: 1280px;
+  height: 720px;
+  background-color: #12274f;
+}
+
+.navigation {
+  display: inline-flex;
+
+  padding-top: 40px;
+  padding-left: 58px;
+  padding-right: 80px;
+  margin-bottom: 99px;
+}
+
+.navigation-logo {
+  margin-right: 144px;
+  display: inline-block;
+}
+
+.navigation-menu {
+  display: inline-block;
+  margin-right: 89px;
+  vertical-align: top;
+}
+
+.navigation-menu-item {
+  margin-right: 21px;
+  display: inline-block;
+}
+
+.navigation-menu-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navigation-form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  background: url(../img/Search-icon.png) no-repeat right;
+  outline: none;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+::placeholder {
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+
+  padding: 15px;
+}
+
+.hero-wrapper {
+  display: flex;
+}
+
+.hero {
+  padding-left: 185px;
+  padding-right: 212px;
+  background-repeat: no-repeat;
+  background-position: 45px 0;
+}
+
+.container {
+  display: inline-flex;
+  z-index: 1;
+}
+
+.hero-order {
+  padding-right: 182px;
+  width: 363px;
+}
+
+.hero-text {
+  left: 185px;
+  top: 237px;
+  margin-bottom: 27px;
+
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 82px;
+  text-shadow: 0px 8px 0px #12274f;
+
+  color: #ffffff;
+}
+
+.hero-order-wrapper {
+  display: inline-flex;
+}
+
+.hero-order-btn {
+  text-decoration: none;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 700;
+
+  color: #ffffff;
+
+  padding: 24px 20px;
+  margin-right: 14px;
+  border-radius: 50px;
+  background-color: #00ff75;
+}
+
+.content-image {
+  display: flex;
+  align-items: center;
+}
+
+.main-image {
+  background-image: url(../img/Burger.png);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-arrow {
+  position: absolute;
+  padding-left: 46px;
+  width: 417px;
+  height: 350px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social-networks {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 22px;
+}
+
+.footer-icon {
+  margin: auto 36px;
+}
